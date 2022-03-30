@@ -41,8 +41,11 @@ and this project adheres to
 
 ### Added
 
-- feature
+- NuGet executable installation with specified version
+- NuGet packages restoring from specified packages.config file
+  to specified packages directory
+- cache restored NuGet packages
 
-[Unreleased]: https://github.com/{repository-owner}/{repository-name}/compare/v1.0.0...HEAD
-[1.0.1]: https://github.com/{repository-owner}/{repository-name}/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/{repository-owner}/{repository-name}/releases/tag/v1.0.0
+[Unreleased]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...HEAD
+[1.0.1]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...v1.0.1
+[1.0.0]: https://github.com/IT-Service/restore-nuget-packages/releases/tag/v1.0.0

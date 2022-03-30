@@ -1,11 +1,13 @@
-# GitHub Action "{repository-name}"
+# GitHub Action "restore-nuget-packages"
 
-[![GitHub release](https://img.shields.io/github/v/release/{repository-owner}/{repository-name}.svg?sort=semver&logo=github)](https://github.com/{repository-owner}/{repository-name}/releases)
+[![GitHub release](https://img.shields.io/github/v/release/IT-Service/restore-nuget-packages.svg?sort=semver&logo=github)](https://github.com/IT-Service/restore-nuget-packages/releases)
 
 [![Semantic Versioning](https://img.shields.io/static/v1?label=Semantic%20Versioning&message=v2.0.0&color=green&logo=semver)](https://semver.org/lang/ru/spec/v2.0.0.html)
 [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-v1.0.0-yellow.svg?logo=git)](https://conventionalcommits.org)
 
-This action ...
+This action install specified NuGet executable,
+restore packages for specified packages.config file
+to specified packages directory.
 
 ## Usage
 
@@ -16,9 +18,11 @@ Basic:
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: actions/{repository-name}@v1
+- name: Restore NuGet packages for XSLT processing
+  uses: IT-Service/restore-nuget-packages@v1
   with:
-    param: 'param value' # comment for param
+    packages-config-path: tools/xslt/packages.config
+    packages-directory-path: tools/xslt/packages
 ```
 
 ## License
