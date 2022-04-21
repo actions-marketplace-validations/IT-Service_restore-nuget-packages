@@ -37,6 +37,13 @@ and this project adheres to
 -
 -->
 
+## [1.0.1]
+
+### Changed
+
+- Disable NuGet Lock mode
+  (`-UseLockFile -LockedMode`)
+
 ## [1.0.0]
 
 ### Added

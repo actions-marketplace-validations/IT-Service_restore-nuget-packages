@@ -42,4 +42,4 @@ runs:
     - name: Restore NuGet packages
       shell: bash
       if: steps.nuget-packages-cache.outputs.cache-hit != 'true'
-      run: nuget.exe restore "${{ inputs.packages-config-path }}" -PackagesDirectory "${{ inputs.packages-directory-path }}" -Source "${{ inputs.packages-repository-uri }}" -NonInteractive -UseLockFile -LockedMode
+      run: nuget.exe restore "${{ inputs.packages-config-path }}" -PackagesDirectory "${{ inputs.packages-directory-path }}" -Source "${{ inputs.packages-repository-uri }}" -NonInteractive
