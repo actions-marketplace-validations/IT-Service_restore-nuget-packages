@@ -28,7 +28,7 @@ outputs:
 runs:
   using: "composite"
   steps:
-    - uses: nuget/setup-nuget@v1.0.5
+    - uses: nuget/setup-nuget@v1.0.6
       with:
         nuget-version: ${{ inputs.nuget-version }}
 
