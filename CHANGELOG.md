@@ -37,6 +37,12 @@ and this project adheres to
 -
 -->
 
+## [1.0.3]
+
+### Fixed
+
+- Update actions/cache to v4
+
 ## [1.0.1]
 
 ### Changed
@@ -54,5 +60,6 @@ and this project adheres to
 - cache restored NuGet packages
 
 [Unreleased]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...HEAD
+[1.0.3]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.1...v1.0.3
 [1.0.1]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/IT-Service/restore-nuget-packages/releases/tag/v1.0.0

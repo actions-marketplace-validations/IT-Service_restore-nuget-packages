@@ -8,7 +8,6 @@
 		"pod212.vscode-github-projects",
 		"jasonnutter.vscode-codeowners",
 		"eamodio.gitlens",
-		"vector-of-bool.gitflow",
 		"sidneys1.gitconfig",
 		"mhutchie.git-graph",
 		"editorconfig.editorconfig",
@@ -24,6 +23,7 @@
 		"vivaxy.vscode-conventional-commits",
 		"bewhite.dokd-vscode-preview",
 		"usernamehw.errorlens",
-		"ms-vscode.powershell"
+		"ms-vscode.powershell",
+		"serhioromano.vscode-gitflow"
 	]
 }
