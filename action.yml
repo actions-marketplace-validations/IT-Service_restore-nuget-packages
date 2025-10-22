@@ -33,7 +33,7 @@ runs:
         nuget-version: ${{ inputs.nuget-version }}
 
     - name: NuGet packages cache processing
-      uses: actions/cache@v4
+      uses: actions/cache@v4.3.0
       id: nuget-packages-cache
       with:
         path: "${{ inputs.packages-directory-path }}"

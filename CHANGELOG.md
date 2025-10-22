@@ -38,7 +38,7 @@ and this project adheres to
 
 ### Fixed
 
-- bump actions/cache to v4
+- bump actions/cache to 4.3.0
 - bump nuget/setup-nuget from 1.1.1 to 1.2.0
   #36
 - bump wagoid/commitlint-github-action from 5.3.1 to 5.4.1
