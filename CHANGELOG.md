@@ -38,6 +38,7 @@ and this project adheres to
 
 ### Fixed
 
+- bump nuget/setup-nuget to 2.0.1
 - bump actions/cache to 4.3.0
 - bump nuget/setup-nuget from 1.1.1 to 1.2.0
   #36
