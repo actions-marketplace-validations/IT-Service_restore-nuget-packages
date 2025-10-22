@@ -7,7 +7,7 @@ and this project adheres to
 [![Semantic Versioning](https://img.shields.io/static/v1?label=Semantic%20Versioning&message=v2.0.0&color=green&logo=semver)](https://semver.org/lang/en/spec/v2.0.0.html).
 
 <!--
-## [Unreleased]
+## [v1.0.3]
 
 ## [1.0.0]
 
@@ -59,7 +59,7 @@ and this project adheres to
   to specified packages directory
 - cache restored NuGet packages
 
-[Unreleased]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...HEAD
+[v1.0.3]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...HEAD
 [1.0.3]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.1...v1.0.3
 [1.0.1]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/IT-Service/restore-nuget-packages/releases/tag/v1.0.0
