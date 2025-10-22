@@ -7,9 +7,6 @@ and this project adheres to
 [![Semantic Versioning](https://img.shields.io/static/v1?label=Semantic%20Versioning&message=v2.0.0&color=green&logo=semver)](https://semver.org/lang/en/spec/v2.0.0.html).
 
 <!--
-## [v1.0.3]
-
-## [1.0.0]
 
 ### Added
 
@@ -37,20 +34,24 @@ and this project adheres to
 -
 -->
 
-## [1.0.3]
+## [v1.0.3]
 
 ### Fixed
 
-- Update actions/cache to v4
+- bump actions/cache to v4
+- bump nuget/setup-nuget from 1.1.1 to 1.2.0
+  #36
+- bump wagoid/commitlint-github-action from 5.3.1 to 5.4.1
+  #35
 
-## [1.0.1]
+## [v1.0.1]
 
 ### Changed
 
 - Disable NuGet Lock mode
   (`-UseLockFile -LockedMode`)
 
-## [1.0.0]
+## [v1.0.0]
 
 ### Added
 
@@ -59,7 +60,7 @@ and this project adheres to
   to specified packages directory
 - cache restored NuGet packages
 
-[v1.0.3]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...HEAD
-[1.0.3]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.1...v1.0.3
-[1.0.1]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...v1.0.1
-[1.0.0]: https://github.com/IT-Service/restore-nuget-packages/releases/tag/v1.0.0
+[Unreleased]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...HEAD
+[v1.0.3]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.1...v1.0.3
+[v1.0.1]: https://github.com/IT-Service/restore-nuget-packages/compare/v1.0.0...v1.0.1
+[v1.0.0]: https://github.com/IT-Service/restore-nuget-packages/releases/tag/v1.0.0
